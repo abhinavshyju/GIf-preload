@@ -18,7 +18,11 @@ function App() {
       </div>
     );
   }
-  // return <div className="">The other part!</div>;
+  return (
+    <div className="w-full flex justify-center items-center h-screen">
+      The other part!
+    </div>
+  );
 }
 
 export default App;
